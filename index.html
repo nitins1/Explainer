@@ -3,16 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> My Website</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <title>Explainer Videos</title>
+  <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <script src="http://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-default ">
+<nav class="navbar navbar-default navbar-custom">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -22,16 +24,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="pull-left" href="index.html"><img class="service img-responsive" src="images/logo-01.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a class="" href="#">Get a Quote</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a class="blog" href="#">Blog</a></li>
+        <li><a class="getaquote" href="#contact">Get a Quote</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -41,10 +44,38 @@
 <div class="jumbotron">
   <div class="container">
     <h1 class="text-center">Explainer videos for startups</h1>
-    <h3 class="text-center">Tell your story, sell your idea, and grow your brand with a video.</h3>
+    <h4 class="text-center">Tell your story, sell your idea, and grow your brand with a video.</h4>
     <div class="text-center">
-      <a href="#" class="btn-outline">Our Work</a>
-      <a href="#" class="btn-filled">Talk to Us</a>
+      <a href="#work" class=" btn btn-first">Our Work</a>
+      <a href="#contact" class="btn btn-contact">Talk to Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<div class="services">
+  <div class="container">
+    <h2>Whatever you need, we do.</h2>
+    <div class="row">
+      <div class="col-sm-3 col-xs-6">
+        <img class="service img-responsive" src="images/services_kickstarter.png">
+        <h5>Kickstarter</h5>
+      </div>
+
+      <div class="col-sm-3 col-xs-6">
+        <img class="service img-responsive" src="images/services_crossplatform.png">
+        <h5>Cross-platform Video</h5>
+      </div>
+
+      <div class="col-sm-3 col-xs-6">
+        <img class="service img-responsive" src="images/services_youtube.png">
+        <h5>YouTube</h5>
+      </div>
+
+      <div class="col-sm-3 col-xs-6">
+        <img class="service img-responsive" src="images/services_ads.png">
+        <h5>Marketing and Advertising</h5>
+      </div>
     </div>
   </div>
 </div>
@@ -53,17 +84,17 @@
 <div class="benefits">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 text-center">
-        <h1>Handcrafted</h1>
+      <div class="col-sm-4 text-center benefit">
+        <h2>Handcrafted</h2>
         <p>Delightful designers moving pixel by pixel to capture your message. No templates here.</p>
       </div>
 
-      <div class="col-sm-4 text-center">
+      <div class="col-sm-4 text-center benefit">
         <h1>Total Package</h1>
         <p>Animation, Narration, Sound and Music. When we’re done, you’ll want to share your idea with the world.</p>
       </div>
 
-      <div class="col-sm-4 text-center">
+      <div class="col-sm-4 text-center benefit">
         <h1>Affordable</h1>
         <p>We’re not an ad agency. We’re a startup helping startups, working with you to stay in budget.</p>
       </div>
@@ -72,31 +103,163 @@
 </div>
 
 <!-- WORK -->
+<div class="work" id="work">
+  <div class="container">
 
-<div class="work">
+    <h1>What we've done</h1>
+
+    <div class="row">
+      <div class="video col-md-8">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video controls class="embed-responsive-item">
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="info col-md-4">
+        <h2>Possessions</h2>
+        <h5>A digital safeguard for all of your things</h5>
+        <p>Possessions needed a video to explain what their app does. As a new technology, it was hard for viewers to understand how their service could benefit them. Their tracking devices were being produced, their app was being developed, but their idea needed to get out there. We created a video that communicated the goal of their innovative technology without any confusing engineering jargon.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="video col-md-8 col-md-push-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video controls class="embed-responsive-item">
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="info col-md-4 col-md-pull-8">
+        <h2>BackPack 'Em</h2>
+        <h5>A University marketplace</h5>
+        <p>BackPack ‘Em was stepping into the UMBC market with an app that let students sell their things to other students. They prioritized safety, security, and a student-first mission but wanted to sell more than just books. They were a solution to the things you need for school but also for fun. Tickets, electronics, and clothes were just a few of the things you could sell with BackPack ‘Em. We helped them rebrand their website, app, and created a video that explained what BackPack ‘Em can truly offer.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="video col-md-8">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video controls width=""class="embed-responsive-item">
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="info col-md-4">
+        <h2>PaRaBaL</h2>
+        <h5>Mobile security for the enterprise</h5>
+        <p>Business was once done on paper. Now, it’s not even done on the desktop computer. Businesses were starting to prioritize mobile technology to expand their reach into new markets and with that came the importance of mobile security. PaRaBal was at the forefront of this new industry and needed a video to tell the decision makers at these organizations why mobile security was something they needed to be ahead of. </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- TEAM -->
+<div class="team" id="team">
   <div class="container">
     <div class="row">
-      <div class="video col-md-8">
+      <h1> Our team. Your team. </h1>
+        <div class="col-sm-3 col-xs-6 member">
+          <img class="img-circle img-responsive" src="images/headshots/Headshot_400.jpg">
+          <h4>Nitin Sampathi</h4>
+          <p>Founder and Designer</p>
+          <a href=#><span class="social fa fa-facebook-official fa-lg" aria-hidden="true"></span></a>
+          <a href=#><span class="social fa fa-twitter fa-lg" aria-hidden="true"></span></a>
+          <a href=#><span class="social fa fa-dribbble fa-lg" aria-hidden="true"></span></a>
+        </div>
+        <div class="col-sm-3 col-xs-6 member">
+          <img class="img-circle img-responsive" src="images/headshots/Headshot_400.jpg">
+          <h4>Nitin Sampathi</h4>
+          <p>Founder and Designer</p>
+          <a href=#><span class="social fa fa-facebook-official fa-lg" aria-hidden="true"></span></a>
+          <a href=#><span class="social fa fa-twitter fa-lg" aria-hidden="true"></span></a>
+          <a href=#><span class="social fa fa-dribbble fa-lg" aria-hidden="true"></span></a>
+        </div>
+        <div class="col-sm-3 col-xs-6 member">
+          <img class="img-circle img-responsive" src="images/headshots/Headshot_400.jpg">
+          <h4>Nitin Sampathi</h4>
+          <p>Founder and Designer</p>
+          <a href=#><span class="social fa fa-facebook-official fa-lg" aria-hidden="true"></span></a>
+          <a href=#><span class="social fa fa-twitter fa-lg" aria-hidden="true"></span></a>
+          <a href=#><span class="social fa fa-dribbble fa-lg" aria-hidden="true"></span></a>
+        </div>
+        <div class="col-sm-3 col-xs-6 member">
+          <img class="img-circle img-responsive" src="images/headshots/Headshot_400.jpg">
+          <h4>Nitin Sampathi</h4>
+          <p>Founder and Designer</p>
+          <a href=#><span class="social fa fa-facebook-official fa-lg" aria-hidden="true"></span></a>
+          <a href=#><span class="social fa fa-twitter fa-lg" aria-hidden="true"></span></a>
+          <a href=#><span class="social fa fa-dribbble fa-lg" aria-hidden="true"></span></a>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- PRICING -->
+<div class="pricing" id="pricing">
+  <div class="container">
+    <h2>Pricing</h2>
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-1 thirty">
+        <h2>30-45s</h2>
+        <p>Short, Sweet, and to the point. A video that will sell your idea and stay within budget.</p>
+        <a href="#contact" class="price">$1500</a>
       </div>
-      <div class="info col-md-4">
+      <div class="col-sm-4 fourtyfive">
+        <h2>45s+</h2>
+        <p>Don't just explain the what, explain the why. More time lets you really tell your story.</p>
+        <a href="#contact" class="price">Talk to us</a>
+      </div>
+      <div class="col-sm-3 campaign">
+        <h2>Campaign</h2>
+        <p>A series of videos meant to sell your product, build your brand, or educate your users. Advertising campaigns, app tutorials, and custom video content.</p>
+        <a href="#contact" class="price">Talk to us</a>
       </div>
     </div>
 
-    <div class="row">
-      <div class="info col-md-4">
-      </div>
-      <div class="video col-md-8">
-      </div>
-    </div>
+  </div>
+</div>
 
+<!-- CONTACT -->
+<div class="contact" id="contact">
+  <div class="container">
     <div class="row">
-      <div class="video col-md-8">
-      </div>
-      <div class="info col-md-4">
+      <div class="col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2">
+        <h1>Let's talk today!</h1>
+        <form action="" method="">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email"/>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea type="message" class="form-control" rows="5" id="message"></textarea>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Sign me up for <strong>The List</strong>, an email every monday covering startups, brands, and marketing. Building a brand? You're going to wannna be on <strong>The List.</strong></label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
       </div>
     </div>
   </div>
 </div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <a href=#><span class="social fa fa-facebook-official fa-2x" aria-hidden="true"></span></a>
+      <a href=#><span class="social fa fa-twitter fa-2x" aria-hidden="true"></span></a>
+      <a href=#><span class="social fa fa-dribbble fa-2x" aria-hidden="true"></span></a>
+    </div>
+    <div class="row">
+      <h5>Copyright 2016</h5>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
