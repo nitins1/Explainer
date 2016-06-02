@@ -75,7 +75,7 @@ body {
 /* JUMBOTRON */
 
 .jumbotron {
-  background: url(https://images.unsplash.com/photo-1462774603919-1d8087e62cad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0ebd884b4d6ac379f42146a2b26fbf2e) no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1462774603919-1d8087e62cad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0ebd884b4d6ac379f42146a2b26fbf2e) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -85,6 +85,7 @@ body {
   color: white;
   padding: 250px 0 75px;
   margin: 0 auto;
+  position: relative;
 }
 
 .jumbotron a {
@@ -145,6 +146,8 @@ body {
 }
 
 .services h2 {
+  font-family: 'Vollkorn', serif;
+  font-style: italic;
   margin: ;
 }
 
@@ -173,11 +176,12 @@ body {
 
 .work .row {
   /*background-color: #f2f2f2;*/
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .work h1 {
   padding-bottom: 40px;
+
 }
 
 .video {
@@ -196,12 +200,18 @@ body {
   padding: 0;
 }
 
+.info h2 {
+  margin-top: 20px;
+}
+
 .info h5 {
-  margin-top: 5px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid red;
+  display: inline-block;
 }
 
 .info p {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 /* TEAM */
@@ -209,7 +219,7 @@ body {
 .team {
   text-align: center;
   padding: 50px 0 70px;
-  margin: 100px 0 60px;
+  margin: 0px 0 60px;
   background-color: #F2F2F2;
 }
 
@@ -320,11 +330,17 @@ body {
   text-align: center;
 }
 
+.contact .checkbox label {
+}
+
 .contact button {
   width: 100%;
   color: white;
   background-color: #F15A24;
   border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px;
   -webkit-transition: all ease-out .2s;
   -moz-transition: all ease-out .2s;
   -o-transition: all ease-out .2s;
@@ -358,8 +374,46 @@ footer .social:hover {
   opacity: .7;
 }
 
- /** {
+footer h5 {
+  margin: 20px;
+  letter-spacing: 3px;
+  line-height: 20px;
+}
+
+footer i {
+
+}
+
+/* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .team img {
+        max-width: 10%;
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+ /* OUTLINE INSPECTOR*/
+/** {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-} */
+}*/
