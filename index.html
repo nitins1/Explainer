@@ -8,9 +8,22 @@
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script src="https://use.typekit.net/ptx8tkk.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <script src="https://use.fontawesome.com/2ae879bdf0.js"></script>
   <script src="http://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- GOOGLE ANALYTICS -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78986752-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
 </head>
 <body>
 
@@ -25,56 +38,58 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="pull-left" href="index.html"><img class="service img-responsive" src="images/logo-01.png"></a>
+      <a class="pull-left" href="index.html"><img class="service img-responsive" src="images/plainer.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#work">Work</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a class="blog" href="#">Blog</a></li>
-        <li><a class="getaquote" href="#contact">Get a Quote</a></li>
+        <li><a class="nav-btn" href="#work">Work</a></li>
+        <li><a class="nav-btn" href="#team">Team</a></li>
+        <li><a class="nav-btn" href="#pricing">Pricing</a></li>
+        <li><a class="nav-btn" href="#pricing">Blog</a></li>
+        <li><a class="nav-btn getaquote" href="#contact">Talk to us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-
 <!-- HERO SECTION -->
-<div class="jumbotron">
-  <div class="container">
-    <h1 class="text-center">Explainer videos for startups</h1>
-    <h4 class="text-center">Tell your story, sell your idea, and grow your brand with a video.</h4>
-    <div class="text-center">
-      <a href="#work" class=" btn btn-first">Our Work</a>
-      <a href="#contact" class="btn btn-contact">Talk to Us</a>
+    <div class="main jumbotron">
+      <video autoplay muted loop>
+      	<source src="video/bgvid.mp4" type="video/mp4">
+      </video>
+      <div class="content container">
+        <h1 class="text-center tk-futura-pt">Explainer videos for startups</h1>
+        <h4 class="text-center">Tell a story, sell an idea, and grow a brand with video.</h4>
+        <div class="text-center">
+          <a href="#work" class=" btn btn-first">Our Work</a>
+          <a href="#contact" class="btn btn-contact">Talk to Us</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
 <!-- SERVICES -->
 <div class="services">
   <div class="container">
-    <h2>Whatever you need, we do.</h2>
+    <h2 class="tk-futura-pt">Engage and convert any audience</h2>
     <div class="row">
-      <div class="col-sm-3 col-xs-6">
+      <div class="col-sm-3 col-xs-3 col-tn-6">
         <img class="service img-responsive" src="images/services_kickstarter.png">
         <h5>Kickstarter</h5>
       </div>
 
-      <div class="col-sm-3 col-xs-6">
+      <div class="col-sm-3 col-xs-3 col-tn-6">
         <img class="service img-responsive" src="images/services_crossplatform.png">
-        <h5>Cross-platform Video</h5>
+        <h5>Cross-platform</h5>
       </div>
 
-      <div class="col-sm-3 col-xs-6">
+      <div class="col-sm-3 col-xs-3 col-tn-6">
         <img class="service img-responsive" src="images/services_youtube.png">
         <h5>YouTube</h5>
       </div>
 
-      <div class="col-sm-3 col-xs-6">
+      <div class="col-sm-3 col-xs-3 col-tn-6">
         <img class="service img-responsive" src="images/services_ads.png">
         <h5>Marketing and Advertising</h5>
       </div>
@@ -86,19 +101,19 @@
 <div class="benefits">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 text-center benefit">
-        <h2>Handcrafted</h2>
-        <p>Delightful designers moving pixel by pixel to capture your message. No templates here.</p>
+      <div class="col-lg-2 col-lg-offset-2 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 text-center benefit">
+        <h2 class="tk-futura-pt">Handcrafted</h2>
+        <p>Designing from scratch, no templates here.</p>
       </div>
 
-      <div class="col-sm-4 text-center benefit">
-        <h1>Total Package</h1>
-        <p>Animation, Narration, Sound and Music. When we’re done, you’ll want to share your idea with the world.</p>
+      <div class="col-lg-2 col-lg-offset-1 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 text-center benefit">
+        <h1 class="tk-futura-pt">Total Package</h1>
+        <p>Animation, Narration, Sound, and Music. Share it with the world.</p>
       </div>
 
-      <div class="col-sm-4 text-center benefit">
-        <h1>Affordable</h1>
-        <p>We’re not an ad agency. We’re a startup helping startups, working with you to stay in budget.</p>
+      <div class="col-lg-2 col-lg-offset-1 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 text-center benefit">
+        <h1 class="tk-futura-pt">Affordable</h1>
+        <p>We’re not an ad agency. We’re a startup helping startups.</p>
       </div>
     </div>
   </div>
@@ -108,48 +123,47 @@
 <div class="work" id="work">
   <div class="container">
 
-    <h1>What we've done</h1>
+    <h1 class="tk-futura-pt">What we've done</h1>
 
     <div class="row">
       <div class="video col-md-8">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NcA_j23HuDU"></iframe>
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZVeWsoGUmy8"></iframe>
         </div>
       </div>
-      <div class="info col-md-4">
-        <h2>Possessions</h2>
+      <div class="info col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 ">
+        <h2 class="tk-futura-pt">Possessions</h2>
         <h5>A digital safeguard for all of your things</h5>
-        <p>Possessions needed a video to explain what their app does. As a new technology, it was hard for viewers to understand how their service could benefit them. Their tracking devices were being produced, their app was being developed, but their idea needed to get out there. We created a video that communicated the goal of their innovative technology without any confusing engineering jargon.</p>
+        <p>Possessions is an app that keeps track of your items and helps you find them when lost. With technology that hadn't been used before, it was important that the viewer understood how things worked. Record your stuff, keep it safe. Simple as that.</p>
+        <a href="https://vimeo.com/165662604" class=" btn btn-seeitlive">See it Live</a>
       </div>
     </div>
 
     <div class="row">
       <div class="video col-md-8 col-md-push-4">
         <div class="embed-responsive embed-responsive-16by9">
-          <video controls class="embed-responsive-item">
-            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-          </video>
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cGMwgng3q-o"></iframe>
         </div>
       </div>
-      <div class="info col-md-4 col-md-pull-8">
-        <h2>BackPack 'Em</h2>
+      <div class="info col-md-4 col-md-pull-8 col-md-offset-0 col-xs-10 col-xs-offset-1 ">
+        <h2 class="tk-futura-pt">BackPack 'Em</h2>
         <h5>A University marketplace</h5>
-        <p>BackPack ‘Em was stepping into the UMBC market with an app that let students sell their things to other students. They prioritized safety, security, and a student-first mission but wanted to sell more than just books. They were a solution to the things you need for school but also for fun. Tickets, electronics, and clothes were just a few of the things you could sell with BackPack ‘Em. We helped them rebrand their website, app, and created a video that explained what BackPack ‘Em can truly offer.</p>
+        <p>BackPack 'Em let students sell what ever they want to the friends and classmates. It was more than just books, it was what college kids wanted to sell - furniture, electronics, and tickets too. </p>
+        <a href="https://www.youtube.com/watch?v=XnEpFJdiyn8" class=" btn btn-seeitlive">See it Live</a>
       </div>
     </div>
 
     <div class="row">
       <div class="video col-md-8">
         <div class="embed-responsive embed-responsive-16by9">
-          <video controls width=""class="embed-responsive-item">
-            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-          </video>
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5gxs0nZUrO4"></iframe>
         </div>
       </div>
-      <div class="info col-md-4">
-        <h2>PaRaBaL</h2>
+      <div class="info col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 ">
+        <h2 class="tk-futura-pt">PaRaBaL</h2>
         <h5>Mobile security for the enterprise</h5>
-        <p>Business was once done on paper. Now, it’s not even done on the desktop computer. Businesses were starting to prioritize mobile technology to expand their reach into new markets and with that came the importance of mobile security. PaRaBal was at the forefront of this new industry and needed a video to tell the decision makers at these organizations why mobile security was something they needed to be ahead of. </p>
+        <p>Business is rarely done on paper. Today, it's not rarely done on desktop computers. PaRaBaL offers enterprise mobile security to the businesses who are taking advantage of emerging mobile platforms.</p>
+        <a href="http://parabal.com/" class=" btn btn-seeitlive">See it Live</a>
       </div>
     </div>
 
@@ -160,38 +174,38 @@
 <div class="team" id="team">
   <div class="container">
     <div class="row">
-      <h1> Our team. Your team. </h1>
-        <div class="col-sm-3 col-xs-6 member">
-          <img class="img-circle img-responsive" src="images/headshots/Headshot_400.jpg">
+      <h1 class="tk-futura-pt"> Our team. Your team. </h1>
+        <div class="col-lg-2 col-lg-offset-2 col-sm-3 col-xs-6 member">
+          <img class="img-circle img-responsive" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/11219324_10207029567557966_4538420707197035629_n.jpg?oh=e0768413f6911fba4d4523491393927a&oe=57CB3FAC">
           <h4>Nitin Sampathi</h4>
-          <p>Founder and Designer</p>
-          <a href=home.html><span class="social fa fa-facebook-official fa-lg" aria-hidden="true"></span></a>
+          <p>Motion Designer</p>
+          <a href=home.html><span class="social fa fa-instagram fa-lg" aria-hidden="true"></span></a>
           <a href=home.html><span class="social fa fa-twitter fa-lg" aria-hidden="true"></span></a>
           <a href=home.html><span class="social fa fa-dribbble fa-lg" aria-hidden="true"></span></a>
         </div>
-        <div class="col-sm-3 col-xs-6 member">
-          <img class="img-circle img-responsive" src="images/headshots/Headshot_400.jpg">
-          <h4>Nitin Sampathi</h4>
-          <p>Founder and Designer</p>
-          <a href=home.html><span class="social fa fa-facebook-official fa-lg" aria-hidden="true"></span></a>
+        <div class="col-lg-2 col-sm-3 col-xs-6 member">
+          <img class="img-circle img-responsive" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/11011777_10153404411014857_2559691765339860648_n.jpg?oh=b26e71bf5ea9c6a71b1a76bdb988b702&oe=57C69812">
+          <h4>Danielle Dernoga</h4>
+          <p>Illustrator</p>
+          <a href=home.html><span class="social fa fa-instagram fa-lg" aria-hidden="true"></span></a>
           <a href=home.html><span class="social fa fa-twitter fa-lg" aria-hidden="true"></span></a>
           <a href=home.html><span class="social fa fa-dribbble fa-lg" aria-hidden="true"></span></a>
         </div>
-        <div class="col-sm-3 col-xs-6 member">
-          <img class="img-circle img-responsive" src="images/headshots/Headshot_400.jpg">
-          <h4>Nitin Sampathi</h4>
-          <p>Founder and Designer</p>
-          <a href=home.html><span class="social fa fa-facebook-official fa-lg" aria-hidden="true"></span></a>
+        <div class="col-lg-2 col-sm-3 col-xs-6 member">
+          <img class="img-circle img-responsive" src="https://upload.wikimedia.org/wikipedia/en/7/70/Shawn_Tok_Profile.jpg">
+          <h4>Chris Yu</h4>
+          <p>Motion Designer</p>
+          <a href=home.html><span class="social fa fa-vimeo fa-lg" aria-hidden="true"></span></a>
           <a href=home.html><span class="social fa fa-twitter fa-lg" aria-hidden="true"></span></a>
           <a href=home.html><span class="social fa fa-dribbble fa-lg" aria-hidden="true"></span></a>
         </div>
-        <div class="col-sm-3 col-xs-6 member">
-          <img class="img-circle img-responsive" src="images/headshots/Headshot_400.jpg">
-          <h4>Nitin Sampathi</h4>
-          <p>Founder and Designer</p>
-          <a href=home.html><span class="social fa fa-facebook-official fa-lg" aria-hidden="true"></span></a>
+        <div class="col-lg-2 col-sm-3 col-xs-6 member">
+          <img class="img-circle img-responsive" src="https://nbclatino.files.wordpress.com/2013/02/isaheadshot-crop.jpg">
+          <h4>Isabel Juan</h4>
+          <p>Project Manager</p>
+          <a href=home.html><span class="social fa fa-medium fa-lg" aria-hidden="true"></span></a>
           <a href=home.html><span class="social fa fa-twitter fa-lg" aria-hidden="true"></span></a>
-          <a href=home.html><span class="social fa fa-dribbble fa-lg" aria-hidden="true"></span></a>
+          <a href=home.html><span class="social fa fa-instagram fa-lg" aria-hidden="true"></span></a>
         </div>
     </div>
   </div>
@@ -200,21 +214,21 @@
 <!-- PRICING -->
 <div class="pricing" id="pricing">
   <div class="container">
-    <h2>Pricing</h2>
+    <h2 class="tk-futura-pt">Pricing</h2>
     <div class="row">
-      <div class="col-sm-3 col-sm-offset-1 thirty">
-        <h2>30-45s</h2>
+      <div class="col-sm-3 col-sm-offset-0 col-xs-10 col-xs-offset-1 thirty">
+        <h2 class="tk-futura-pt">30-45s</h2>
         <p>Short, Sweet, and to the point. A video that will sell your idea and stay within budget.</p>
         <a href="#contact" class="price">$1500</a>
       </div>
-      <div class="col-sm-4 fourtyfive">
-        <h2>45s+</h2>
-        <p>Don't just explain the what, explain the why. More time lets you really tell your story.</p>
+      <div class="col-sm-4 col-xs-10 col-xs-offset-1 fourtyfive">
+        <h2 class="tk-futura-pt">45s+</h2>
+        <p>Don't just explain the what, explain the why. More time to tell your story.</p>
         <a href="#contact" class="price">Talk to us</a>
       </div>
-      <div class="col-sm-3 campaign">
-        <h2>Campaign</h2>
-        <p>A series of videos meant to sell your product, build your brand, or educate your users.</p>
+      <div class="col-sm-3 col-xs-10 col-xs-offset-1 campaign">
+        <h2 class="tk-futura-pt">Campaign</h2>
+        <p>A series of videos to sell your product, build your brand, or educate your users.</p>
         <a href="#contact" class="price">Talk to us</a>
       </div>
     </div>
@@ -222,12 +236,31 @@
   </div>
 </div>
 
+<!-- PROMOTIONS -->
+
+<div class="promotions">
+  <div class="container">
+  <div class="row">
+    <div class="promo promo-1 col-sm-6">
+      <h2 class="tk-futura-pt">Need a pitchdeck?</h2>
+      <a href="#" class="promo-btn">Get our free templates</a>
+      <p><a href="#">PayPal</a> using our pitchdeck to secure 1.2mil in funding.</p>
+    </div>
+    <div class="promo promo-2 col-sm-6">
+      <h2 class="tk-futura-pt">We write about startups. Come pick our brain.</h2>
+      <a href="#" class="promo-2-btn">Follow the blog</a>
+      <p>Join our <a href="#">weekly newsletter</a> if you just can't get enough.</p>
+    </div>
+  </div>
+</div>
+</div>
+
 <!-- CONTACT -->
 <div class="contact" id="contact">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-        <h1>Let's talk today!</h1>
+      <div class="form col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+        <h1 class="tk-futura-pt">Say hi.</h1>
         <form action="" method="">
           <div class="form-group">
             <label for="email">Email</label>
@@ -238,7 +271,7 @@
             <textarea type="message" class="form-control" rows="5" id="message"></textarea>
           </div>
           <div class="checkbox">
-            <label><input type="checkbox" value="">Sign me up for <strong>The List</strong>, an email every monday covering startups, brands, and marketing. Building a brand? You're going to wannna be on <strong>The List.</strong></label>
+            <label><input type="checkbox" value="">Sign up for the e-mail list.</label>
           </div>
           <button type="submit" class="btn btn-default">Submit</button>
         </form>
