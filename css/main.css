@@ -175,7 +175,11 @@ main {
 .services {
   text-align: center;
   background-color: #f2f2f2;
-  padding: 30px 0;
+  padding: 80px 0;
+}
+
+.services .row {
+  padding-top: 30px;
 }
 
 .services h2 {
@@ -200,7 +204,7 @@ main {
 }
 
 .benefit {
-  padding: 90px 20px 50px;
+  padding: 90px 20px 80px;
 }
 
 /* WORK */
@@ -601,7 +605,7 @@ footer i {
     }
 
     .main .content {
-      top: 115px;
+      top: 135px;
     }
 
     .navbar .navbar-nav {
@@ -642,7 +646,7 @@ footer i {
       -moz-background-size: cover;
       -o-background-size: cover;
       color: white;
-      padding: 250px 0 75px;
+      padding: 300px 0 75px;
       margin: 0 auto;
       position: relative;
     }
