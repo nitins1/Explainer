@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #2C303B;
   margin: 0 auto;
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
@@ -21,7 +21,12 @@ body {
   margin-bottom: 0;
   background-color: #2C303B;
   border: none;
-  text-align: center;
+  text-align: ;
+}
+
+.navbar-brand {
+  font-size: 2.3rem;
+  color: white;
 }
 
 .navbar .navbar-nav {
@@ -44,6 +49,11 @@ body {
   transition: all ease-out .2s;
 }
 
+.navbar-default .navbar-nav .nav-btn:hover{
+  color: white;
+  opacity: 1;
+}
+
 .navbar-default .navbar-nav .getaquote {
   opacity: 1;
   background-color: #E74B3B;
@@ -56,13 +66,17 @@ body {
   transition: all ease-out .2s;
 }
 
-.navbar-default .navbar-nav .nav-btn:hover{
-  color: white;
-  opacity: 1;
-}
-
 .navbar-default .navbar-nav .getaquote:hover {
   opacity: .7;
+  background-color: #E74B3B;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > .getaquote:focus {
+  color: white;
   background-color: #E74B3B;
 }
 
@@ -193,8 +207,8 @@ main {
 
 .work {
   text-align: center;
-  padding: 30px 0 40px;
-  background-color: ;
+  padding: 60px 0 0px;
+  background-color: #f2f2f2;
 }
 
 .work .row {
@@ -263,8 +277,8 @@ main {
 
 .team {
   text-align: center;
-  padding: 50px 0 70px;
-  margin: 0px 0 60px;
+  padding: 80px 0 100px;
+  margin: 0px 0 0px;
   background-color: white;
 }
 
@@ -307,7 +321,8 @@ main {
 /* PRICING */
 
 .pricing {
-  padding: 40px 0;
+  padding: 80px 0;
+  background-color: #f2f2f2;
 }
 
 .pricing row {
@@ -373,7 +388,7 @@ main {
 
 /* PROMOTIONS */
 .promotions {
-margin: 50px 0;
+margin: 0px 0;
 color: white;
 background-color: ;
 background: url(http://i.imgur.com/s3L85Wx.png) no-repeat center center;
@@ -438,7 +453,7 @@ background: url(http://i.imgur.com/s3L85Wx.png) no-repeat center center;
 }
 
 .promo p {
-  opacity: .5;
+  opacity: 1;
   color: white;
   margin-top: 35px;
 }
@@ -462,10 +477,10 @@ background: url(http://i.imgur.com/s3L85Wx.png) no-repeat center center;
 /* CONTACT */
 
 .contact {
-  background-color: ;
+  background-color: #f2f2f2;
   color: ;
   padding: 100px 0 100px;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .contact h1 {
@@ -586,7 +601,15 @@ footer i {
     }
 
     .main .content {
-      top: 90px;
+      top: 115px;
+    }
+
+    .navbar .navbar-nav {
+      float: right;
+    }
+
+    .jumbotron {
+
     }
 
     .jumbotron h1 {
@@ -622,6 +645,10 @@ footer i {
       padding: 250px 0 75px;
       margin: 0 auto;
       position: relative;
+    }
+
+    .jumbotron h1 {
+
     }
   }
 
