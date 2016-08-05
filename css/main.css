@@ -350,8 +350,14 @@ main {
   text-align: center;
 }
 
+.pricing img {
+  margin: 0 auto;
+  width: 50%;
+}
+
 .thirty, .fourtyfive, .campaign {
   margin-top: 20px;
+  margin-left: 0px;
   padding: 20px;
   background-color:;
 }
@@ -483,13 +489,30 @@ background: url(http://i.imgur.com/s3L85Wx.png) no-repeat center center;
 .contact {
   background-color: #f2f2f2;
   color: ;
-  padding: 100px 0 100px;
+  padding: 0px 0 100px;
   margin-top: 0px;
+  text-align: center;
 }
 
 .contact h1 {
   padding-bottom: 30px;
   text-align: center;
+}
+
+.contact .mail-link {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 1.4em;
+  color: #E74B3B;
+  text-decoration: none;
+  -webkit-transition: all ease-out .2s;
+  -moz-transition: all ease-out .2s;
+  -o-transition: all ease-out .2s;
+  transition: all ease-out .2s;
+}
+
+.mail-link:hover {
+  opacity: .7;
 }
 
 .contact .checkbox label {
@@ -589,6 +612,10 @@ footer i {
       max-width: 50%;
       margin: 0 auto;
     }
+
+    .contact .mail-link {
+      font-size: 1.7em;
+    }
   }
 
   /* Services gird adjustment */
@@ -631,6 +658,10 @@ footer i {
     .team img {
       max-width: 70%;
       margin: 0 auto;
+    }
+
+    .contact .mail-link {
+      font-size: 2.2em;
     }
   }
 
@@ -692,6 +723,10 @@ footer i {
 
     .jumbotron .btn {
       font-size: 1.2vw;
+    }
+
+    .contact .mail-link {
+      font-size: 2.6em;
     }
   }
 
